@@ -1,0 +1,28 @@
+.filter-container {
+  margin-bottom: 10px;
+}
+
+.filter-dropdown {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 200px;
+  cursor: pointer;
+}
+
+/* Style for hover effect */
+.filter-dropdown:hover {
+  background-color: #f2f2f2;
+}
+
+/* Style for selected option */
+.filter-dropdown option:checked {
+  font-weight: bold;
+}
+
+/* Style for all options */
+.filter-dropdown option {
+  font-weight: normal;
+}
+
